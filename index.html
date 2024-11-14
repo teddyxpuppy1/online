@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet Awareness</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        h1, h2 {
+            color: #4CAF50;
+        }
+        .tip {
+            background-color: #eafaf1;
+            padding: 10px;
+            border-left: 5px solid #4CAF50;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 0em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .flowchart {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .sources {
+            margin-top: 20px;
+            text-align: left;
+        }
+        .sources a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .sources a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Stay Safe Online: Internet Awareness Tips</h1>
+        <p>Learn how to protect yourself in the digital world</p>
+    </header>
+
+    <section>
+        <h2>Why Internet Awareness is Important</h2>
+        <p>With the widespread use of the internet in daily life, it's essential to understand online safety. Internet awareness is critical in helping users:</p>
+        <ul>
+            <li><strong>Prevent Cyber Threats</strong>: Protects against malware, ransomware, and other cyberattacks.</li>
+            <li><strong>Safeguard Personal Information</strong>: Ensures personal and financial data stays private.</li>
+            <li><strong>Navigate Responsibly</strong>: Encourages safe and respectful online interactions.</li>
+            <li><strong>Avoid Scams and Fraud</strong>: Reduces the likelihood of falling victim to scams.</li>
+            <li><strong>Protect Children and Vulnerable Groups</strong>: Keeps children and other at-risk users safe from inappropriate content and predators.</li>
+        </ul>
+
+        <h2>Basic Tips for Staying Safe Online</h2>
+        <div class="tip">
+            <h3>1. Protect Your Personal Information</h3>
+            <ul>
+                <li><strong>Limit Public Sharing</strong>: Avoid posting sensitive details like your address, phone number, or personal photos on public sites.</li>
+                <li><strong>Use Strong Passwords</strong>: Create complex passwords with a mix of uppercase, lowercase, numbers, and symbols.</li>
+                <li><strong>Enable Two-Factor Authentication (2FA)</strong>: Adds an extra layer of security by requiring a second form of verification.</li>
+                <li><strong>Use Encryption</strong>: Encrypt sensitive communications and data to make it more secure.</li>
+            </ul>
+        </div>
+
+        <h3>Common Cyber Threats and How to Prevent Them</h3>
+        <table>
+            <tr>
+                <th>Cyber Threat</th>
+                <th>Description</th>
+                <th>Prevention Tips</th>
+            </tr>
+            <tr>
+                <td>Phishing</td>
+                <td>Deceptive emails that trick users into providing personal information.</td>
+                <td>Verify sender details; avoid clicking suspicious links.</td>
+            </tr>
+            <tr>
+                <td>Malware</td>
+                <td>Malicious software designed to harm or exploit devices.</td>
+                <td>Install antivirus software; only download from trusted sites.</td>
+            </tr>
+            <tr>
+                <td>Ransomware</td>
+                <td>Malware that encrypts files and demands payment for access.</td>
+                <td>Regularly back up data; avoid clicking on unknown links.</td>
+            </tr>
+            <tr>
+                <td>Spyware</td>
+                <td>Software that secretly monitors and collects data about users.</td>
+                <td>Use anti-spyware software; avoid downloading suspicious files.</td>
+            </tr>
+            <tr>
+                <td>Man-in-the-Middle Attack</td>
+                <td>Attackers intercept communication between two parties to steal information.</td>
+                <td>Use secure websites (HTTPS); avoid public Wi-Fi for sensitive transactions.</td>
+            </tr>
+        </table>
+
+        <h3>Online Safety Tips</h3>
+        <table>
+            <tr>
+                <th>Tip</th>
+                <th>Action</th>
+            </tr>
+            <tr>
+                <td>Secure Your Wi-Fi</td>
+                <td>Change default Wi-Fi passwords and enable encryption (WPA3).</td>
+            </tr>
+            <tr>
+                <td>Use VPNs</td>
+                <td>Utilize Virtual Private Networks (VPNs) for secure internet browsing.</td>
+            </tr>
+            <tr>
+                <td>Be Cautious with Emails</td>
+                <td>Avoid clicking on suspicious links in emails or attachments.</td>
+            </tr>
+            <tr>
+                <td>Regularly Update Software</td>
+                <td>Keep your operating system and apps updated to patch vulnerabilities.</td>
+            </tr>
+        </table>
+
+        <h2>Current Tech Issues and Concerns</h2>
+        <div class="tip">
+            <h3>1. Privacy Concerns and Data Collection</h3>
+            <p>With the growth of online platforms, companies are collecting large amounts of user data. It's important to:</p>
+            <ul>
+                <li><strong>Limit Data Sharing</strong>: Only share necessary data when signing up for services.</li>
+                <li><strong>Review Permissions</strong>: Regularly review app and browser permissions, especially for location and contact access.</li>
+                <li><strong>Be Cautious with Smart Devices</strong>: Many smart devices, like voice assistants, are always listening and can store conversations.</li>
+                <li><strong>Delete Unnecessary Data</strong>: Delete old accounts and unused data stored on websites.</li>
+            </ul>
+        </div>
+
+        <h3>Mindfulness and Internet Usage</h3>
+        <table>
+            <tr>
+                <th>Tip</th>
+                <th>Mindfulness Action</th>
+            </tr>
+            <tr>
+                <td>Avoid Overuse</td>
+                <td>Set limits for daily screen time to avoid digital burnout.</td>
+            </tr>
+            <tr>
+                <td>Pause for Reflection</td>
+                <td>Before reacting online, take a moment to think through your response.</td>
+            </tr>
+            <tr>
+                <td>Practice Digital Detox</td>
+                <td>Regularly disconnect from screens for mental clarity and relaxation.</td>
+            </tr>
+            <tr>
+                <td>Limit Multitasking</td>
+                <td>Focus on one task at a time to improve productivity and mindfulness.</td>
+            </tr>
+        </table>
+
+        <h3>Prevention Tips for Mindful Internet Usage</h3>
+        <table>
+            <tr>
+                <th>Prevention Tip</th>
+                <th>Action</th>
+            </tr>
+            <tr>
+                <td>Set Privacy Settings</td>
+                <td>Review and adjust privacy settings on social media and apps to limit data exposure.</td>
+            </tr>
+            <tr>
+                <td>Be Selective with Connections</td>
+                <td>Only accept friend requests or follow users you trust.</td>
+            </tr>
+            <tr>
+                <td>Use Trusted Websites</td>
+                <td>Ensure websites are HTTPS-secured before submitting sensitive data.</td>
+            </tr>
+            <tr>
+                <td>Regular Account Monitoring</td>
+                <td>Check your accounts regularly for unusual activity or security alerts.</td>
+            </tr>
+        </table>
+
+        <h3>Artificial Intelligence (AI) Risks</h3>
+        <p>AI is now used in everyday life, from online recommendations to virtual assistants. However, it poses some risks:</p>
+        <ul>
+            <li><strong>Bias in AI Systems</strong>: AI can sometimes perpetuate biases, leading to unfair outcomes.</li>
+            <li><strong>Lack of Transparency</strong>: Many AI systems operate as a "black box," making it hard to understand how they function.</li>
+            <li><strong>Data Privacy</strong>: AI requires vast amounts of data, raising concerns about how personal data is used.</li>
+        </ul>
+
+        <h2>Conclusion</h2>
+        <p>Internet awareness is essential for navigating the digital world safely and responsibly. By staying informed about online threats and practicing mindfulness in your internet usage, you can significantly reduce the risks associated with online activities.</p>
+
+        <!-- Research Sources Section -->
+        <div class="sources">
+            <h3>Research Sources:</h3>
+            <ul>
+                <li><a href="https://www.cisa.gov/cybersecurity" target="_blank">Cybersecurity & Infrastructure Security Agency</a></li>
+                <li><a href="https://www.consumerreports.org/privacy/" target="_blank">Consumer Reports - Privacy Tips</a></li>
+                <li><a href="https://www.stopbullying.gov/cyberbullying/what-is-it" target="_blank">StopBullying.gov - Cyberbullying Awareness</a></li>
+                <li><a href="https://www.verywellmind.com/what-is-digital-detox-5185302" target="_blank">VeryWell Mind - Digital Detox</a></li>
+                <li><a href="https://www.cyberaware.gov.uk/" target="_blank">Cyber Aware - UK Government</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Click Wisely. All rights reserved.</p>
+    </footer>
+</body>
+</html>
